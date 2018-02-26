@@ -1,0 +1,21 @@
+>>> #字典
+>>> family={"a":1,"b":2,"c":3}
+>>> type(family)
+<class 'dict'>
+>>> family
+{'a': 1, 'c': 3, 'b': 2}
+>>> str1={"名字":"小明","专业":"数学"}
+>>> str1
+{'专业': '数学', '名字': '小明'}
+>>> dic=dict(m=10,n='a',h=90)
+>>> dic
+{'h': 90, 'm': 10, 'n': 'a'}
+>>> list1=[("a",1),("b",2)]]
+SyntaxError: invalid syntax
+>>> list1=[("a",1),("b",2)]
+>>> dict(list1)
+{'a': 1, 'b': 2}
+>>> keys=['a','b','c']
+>>> m=dict.fromkeys(keys)
+>>> m
+{'a': None, 'c': None, 'b': None}

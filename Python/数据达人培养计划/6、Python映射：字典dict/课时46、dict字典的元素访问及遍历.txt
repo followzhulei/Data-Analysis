@@ -1,0 +1,31 @@
+>>> #查看一个元素的value
+>>> m={'a':1,'b':2}
+>>> m['a']
+1
+>>> poi={'name':'shop','information':{'city':'shanghai','add':'somewhere'}}
+>>> poi['information']
+{'city': 'shanghai', 'add': 'somewhere'}
+>>> poi['information']['add']
+'somewhere'
+
+
+>>> #查看一个元素value的另一个方法
+>>> m
+{'b': 2, 'a': 1}
+>>> m.get('a')
+1
+>>> poi
+{'information': {'city': 'shanghai', 'add': 'somewhere'}, 'name': 'shop'}
+
+>>> poi.keys()
+dict_keys(['information', 'name'])
+>>> type(poi.keys())
+<class 'dict_keys'>
+
+>>> poi.values()
+dict_values([{'city': 'shanghai', 'add': 'somewhere'}, 'shop'])
+>>> type(poi.values())
+<class 'dict_values'>
+
+>>> poi.items()
+dict_items([('information', {'city': 'shanghai', 'add': 'somewhere'}), ('name', 'shop')])

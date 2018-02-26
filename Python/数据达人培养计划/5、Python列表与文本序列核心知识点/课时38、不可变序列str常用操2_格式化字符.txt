@@ -1,0 +1,36 @@
+>>> #如何设置格式化字符
+>>> name="fatbird"
+>>> truth="%s is 好人" %name
+>>> truth
+'fatbird is 好人'
+>>> m=3.1415926
+>>> print('pi is %f'%m)
+pi is 3.141593
+>>> print('pi is %.1f'%m)
+pi is 3.1
+>>> print('pi is %.3f'%m)
+pi is 3.142
+
+>>> job=["教师","医生","律师"]
+>>> for i in job:
+	print("我的工作是%s"%i)
+
+	
+我的工作是教师
+我的工作是医生
+我的工作是律师
+
+>>> #format如何使用
+>>> '{}叫上{}'.format('a','b')
+'a叫上b'
+>>> '{}{}{}'.format('a','b','c')
+'abc'
+>>> '{0}{1}{1}{2}'.format('a','b','c')
+'abbc' 
+>>> '{}{}{}'.format('a','b','c')
+'abc'
+>>> '{0}{1}{1}{2}'.format('a','b','c')
+'abbc'
+>>> "我是{haoren}".format(haoren="好人")
+'我是好人'
+>>> 
